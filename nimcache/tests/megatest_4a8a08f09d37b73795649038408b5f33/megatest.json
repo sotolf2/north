@@ -1,0 +1,46 @@
+{
+  "cacheVersion": "D20210525T193831",
+  "outputFile": "/home/torerling/programming/nim/north/tests/megatest",
+  "compile": [
+    [
+      "/home/torerling/programming/nim/north/nimcache/tests/megatest_4a8a08f09d37b73795649038408b5f33/stdlib_digitsutils.nim.c",
+      "gcc -c  -w -fmax-errors=3   -I'/home/torerling/.choosenim/toolchains/nim-#devel/lib' -I/home/torerling/programming/nim/north/tests -o /home/torerling/programming/nim/north/nimcache/tests/megatest_4a8a08f09d37b73795649038408b5f33/stdlib_digitsutils.nim.c.o /home/torerling/programming/nim/north/nimcache/tests/megatest_4a8a08f09d37b73795649038408b5f33/stdlib_digitsutils.nim.c"
+    ],
+    [
+      "/home/torerling/programming/nim/north/nimcache/tests/megatest_4a8a08f09d37b73795649038408b5f33/stdlib_assertions.nim.c",
+      "gcc -c  -w -fmax-errors=3   -I'/home/torerling/.choosenim/toolchains/nim-#devel/lib' -I/home/torerling/programming/nim/north/tests -o /home/torerling/programming/nim/north/nimcache/tests/megatest_4a8a08f09d37b73795649038408b5f33/stdlib_assertions.nim.c.o /home/torerling/programming/nim/north/nimcache/tests/megatest_4a8a08f09d37b73795649038408b5f33/stdlib_assertions.nim.c"
+    ],
+    [
+      "/home/torerling/programming/nim/north/nimcache/tests/megatest_4a8a08f09d37b73795649038408b5f33/stdlib_dollars.nim.c",
+      "gcc -c  -w -fmax-errors=3   -I'/home/torerling/.choosenim/toolchains/nim-#devel/lib' -I/home/torerling/programming/nim/north/tests -o /home/torerling/programming/nim/north/nimcache/tests/megatest_4a8a08f09d37b73795649038408b5f33/stdlib_dollars.nim.c.o /home/torerling/programming/nim/north/nimcache/tests/megatest_4a8a08f09d37b73795649038408b5f33/stdlib_dollars.nim.c"
+    ],
+    [
+      "/home/torerling/programming/nim/north/nimcache/tests/megatest_4a8a08f09d37b73795649038408b5f33/stdlib_system.nim.c",
+      "gcc -c  -w -fmax-errors=3   -I'/home/torerling/.choosenim/toolchains/nim-#devel/lib' -I/home/torerling/programming/nim/north/tests -o /home/torerling/programming/nim/north/nimcache/tests/megatest_4a8a08f09d37b73795649038408b5f33/stdlib_system.nim.c.o /home/torerling/programming/nim/north/nimcache/tests/megatest_4a8a08f09d37b73795649038408b5f33/stdlib_system.nim.c"
+    ],
+    [
+      "/home/torerling/programming/nim/north/nimcache/tests/megatest_4a8a08f09d37b73795649038408b5f33/@mmegatest.nim.c",
+      "gcc -c  -w -fmax-errors=3   -I'/home/torerling/.choosenim/toolchains/nim-#devel/lib' -I/home/torerling/programming/nim/north/tests -o /home/torerling/programming/nim/north/nimcache/tests/megatest_4a8a08f09d37b73795649038408b5f33/@mmegatest.nim.c.o /home/torerling/programming/nim/north/nimcache/tests/megatest_4a8a08f09d37b73795649038408b5f33/@mmegatest.nim.c"
+    ]
+  ],
+  "link": [
+    "/home/torerling/programming/nim/north/nimcache/tests/megatest_4a8a08f09d37b73795649038408b5f33/stdlib_digitsutils.nim.c.o",
+    "/home/torerling/programming/nim/north/nimcache/tests/megatest_4a8a08f09d37b73795649038408b5f33/stdlib_assertions.nim.c.o",
+    "/home/torerling/programming/nim/north/nimcache/tests/megatest_4a8a08f09d37b73795649038408b5f33/stdlib_dollars.nim.c.o",
+    "/home/torerling/programming/nim/north/nimcache/tests/megatest_4a8a08f09d37b73795649038408b5f33/stdlib_system.nim.c.o",
+    "/home/torerling/programming/nim/north/nimcache/tests/megatest_4a8a08f09d37b73795649038408b5f33/@mmegatest.nim.c.o"
+  ],
+  "linkcmd": "gcc   -o /home/torerling/programming/nim/north/tests/megatest /home/torerling/programming/nim/north/nimcache/tests/megatest_4a8a08f09d37b73795649038408b5f33/stdlib_digitsutils.nim.c.o /home/torerling/programming/nim/north/nimcache/tests/megatest_4a8a08f09d37b73795649038408b5f33/stdlib_assertions.nim.c.o /home/torerling/programming/nim/north/nimcache/tests/megatest_4a8a08f09d37b73795649038408b5f33/stdlib_dollars.nim.c.o /home/torerling/programming/nim/north/nimcache/tests/megatest_4a8a08f09d37b73795649038408b5f33/stdlib_system.nim.c.o /home/torerling/programming/nim/north/nimcache/tests/megatest_4a8a08f09d37b73795649038408b5f33/@mmegatest.nim.c.o    -ldl",
+  "extraCmds": [],
+  "configFiles": [
+    "/home/torerling/.choosenim/toolchains/nim-#devel/config/nim.cfg",
+    "/home/torerling/.choosenim/toolchains/nim-#devel/config/config.nims"
+  ],
+  "stdinInput": false,
+  "projectIsCmd": false,
+  "cmdInput": "",
+  "currentDir": "/home/torerling/programming/nim/north",
+  "cmdline": "",
+  "depfiles": [],
+  "nimexe": ""
+}
