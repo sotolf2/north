@@ -49,6 +49,7 @@ proc toInstructions(program: Program): Deque[Instruction] =
 proc run*(progIn: Program) =
   var stack = initDeque[NorthType]()
   var program = toInstructions(progIn)
+  var isCompiling = false
   for inst in program:
     case inst.op
     of Push:
